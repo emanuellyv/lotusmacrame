@@ -1,0 +1,177 @@
+/*
+    PALETA DE CORES:
+        - #F1F1F1
+        - #31C2C2
+        - #009B9B
+        - #AF8B0A
+    
+    TIPOGRAFIA:
+        - Aruna
+        - Bellaboo
+        - Glacial Indifference
+*/
+
+/* Tipografia */
+@font-face {
+    font-family: Aruna;
+    src: url('../fonts/aruna.ttf');
+}
+
+@font-face {
+    font-family: Bellaboo;
+    src: url('../fonts/bellaboo.otf');
+}
+
+@font-face {
+    font-family: Glacial Indifference;
+    src: url('../fonts/glacial.otf');
+}
+
+/* Normatização CSS */
+body {
+    width: 100%;
+    background-color: #F1F1F1;
+    font-family: "Glacial Indifference";
+}
+
+a {
+    color: #009B9B;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #31C2C2;
+}
+
+/* Estilos principais */
+.geral {
+    max-width: 1128px;
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+}
+
+.logo {
+    float: right;
+    width: 120px;
+}
+
+nav {
+    float: left;
+    width: 840px;
+}
+
+nav ul {
+    float: left;
+}
+
+nav li {
+    font-size: 16px;
+    display: inline-block;
+    margin-right: 60px;
+    margin-top: 36px;
+}
+
+.titulo{
+    font-size: 60px;
+    width: 100%;
+    color: #AF8B0A;
+    font-family: Bellaboo;
+    float: left;
+    margin-bottom: 0;
+}
+
+p{
+    color: #AF8B0A;
+}
+
+table tr{
+    width: 100%;
+}
+
+table td{
+    padding-top: 70px;
+    padding-right: 70px;
+}
+
+.center {
+    padding-left: 110px;
+}
+
+footer {
+    width: 100%;
+
+}
+
+.pFooter {
+    color: #009B9B;
+    float: right;
+    font-size: 16px;
+    margin-top: 40px;
+}
+
+.contFooter {
+    float: left;
+    list-style: none;
+    font-size: 18px;    
+}
+
+.listFooter {
+    padding-top: 10px;
+}
+
+/* Estilização da página de contato */
+
+.info {
+    float: right;
+    width: 516px;
+}
+
+/* Estilização do formulário */
+.btn{
+    background-color: #AF8B0A;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    padding: 10px 16px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.form {
+    float: left;
+    width: 516px;
+    color: #009B9B;
+    margin-bottom: 20px;
+} 
+
+/* Estilização das outras páginas */
+.filtros {
+    display: inline-block;
+}
+
+.contato {
+    margin-bottom: 60px;
+}
+
+.table-filtros {
+    padding: 10px;
+    float: left;
+}
+
+.img-filtros {
+    width: 200px;
+}
+
+.info-filtros {
+    float: right;
+}
+
+h3 {
+    color: #009B9B;
+}
